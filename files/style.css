@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Karla:wght@400;500;800&family=Martian+Mono:wght@100;300;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200&family=Roboto:ital,wght@0,400;0,700;1,100&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebeaea;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: #fff;
+    width: 43%;
+    border-radius: 10px;
+    font-family: karla;
+    overflow: hidden;
+}
+
+.first_container{
+    height: 200px;
+    padding-inline: 50px;
+    padding-block: 40px;
+}
+
+.first_container .titl{
+    font-size: 1.5rem;
+    color: hsl(179, 62%, 43%);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.first_container .sub{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.first_container .para{
+    line-height: 25px;
+    color: hsl(0, 0%, 59%);
+}
+
+.second_container{
+    background-color: hsl(218, 22%, 67%);
+    display: flex;
+    align-items: start;
+    color: #fff;
+}
+
+.second_container .sub1{
+    height: 220px;
+    flex: 1;
+    position: relative;
+    background-color: rgb(10, 94, 122);
+    padding: 30px 30px 20px 50px;
+}
+
+.second_container .sub2{
+    flex: 1;
+    height: 220px;
+    background-color: rgba(10, 94, 122, 0.61);
+    padding: 30px 50px 20px 30px;   
+}
+
+.second_container .sub1 .subsc{
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+.second_container .sub1 .doll_con{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.second_container .sub1 .doll{
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: inline;
+    margin-right: 15px;
+}
+
+.second_container .access{
+    margin-bottom: 25px;
+}
+
+.second_container .sub1 button{
+    width: 100%;
+    padding-block: 10px;
+    font-size: .8rem;
+    font-weight: bold;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.second_container .sub2 .subsc{
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+}
+
+.second_container .sub2 .tutorials{
+    font-size: .9rem;
+    color: #ffffffb7;
+    line-height: 20px;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
